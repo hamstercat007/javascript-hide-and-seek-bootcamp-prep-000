@@ -19,5 +19,6 @@ function increaseRankBy(n) {
 }
 
 function deepestChild(){
- return document.getElementById('grand-node').querySelectorAll('div')
+ var grandNode = document.getElementById('grand-node')
+ return grandNode.child[-1]
 }
