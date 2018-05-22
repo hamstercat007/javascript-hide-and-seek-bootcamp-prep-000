@@ -22,8 +22,8 @@ function deepestChild(){
  var currentNode = document.getElementById('grand-node')
  while(true){
    if (currentNode.children.length === 0){
-     return node
+     return currentNode
    }
-   else node = node.children[0]
+   else currentNode = currentNode.children[0]
  }
 }
