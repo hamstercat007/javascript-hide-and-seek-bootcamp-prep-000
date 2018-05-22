@@ -11,9 +11,9 @@ function nestedTarget(){
   return document.querySelector('#nested .target')
 }
 
-function increaseRankBy(n)
+function increaseRankBy(n) {
   var rankedList = document.getElementsByClassName("ranked-list")
-
-for (let i = 0; i < rankedList.length; i++) {
+  for (let i = 0; i < rankedList.length; i++) {
   rankedList[i].innerHTML = (i + 1).toString()
+  }
 }
